@@ -1,0 +1,65 @@
+
+.navbar {
+  margin-bottom: 0;
+}
+
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+.navbar-custom {
+  background-color: #90d96d;
+  border-color: #7cd253;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#afe495), to(#90d96d));
+  background-image: -webkit-linear-gradient(top, #afe495, 0%, #90d96d, 100%);
+  background-image: -moz-linear-gradient(top, #afe495 0%, #90d96d 100%);
+  background-image: linear-gradient(to bottom, #afe495 0%, #90d96d 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffafe495', endColorstr='#ff90d96d', GradientType=0);
+}
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #e6e6e6;
+  background-color: transparent;
+}
+#NavbarText {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li:last-child > a {
+  border-right: 1px solid #7cd253;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+  border-left: 1px solid #7cd253;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #080707;
+  background-color: transparent;
+}
+
+.navbar-custom .navbar-collapse,
+.navbar-custom .form-inline {
+  border-color: #7ad251;
+}
+
+.navbar-custom .nav-item .nav-link {
+  color: #ffffff;
+}
+.navbar-custom .nav-item .nav-link:hover {
+  color: #080707;
+}
+.navbar-custom .form-inline {
+  margin-left: 20%;
+}
