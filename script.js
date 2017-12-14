@@ -1,20 +1,16 @@
 
-$( "input" ).on( "click", function() {
 $.ajax({
   url: 'https://opentdb.com/api.php?amount=1&type=boolean',
   method: 'GET',
-  content-type: 'application/json; charset=UTF-8',
+  contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
   data: {
     amount: 1,
     type: 'boolean'
   },
-  success: handleResults;
+  success: handleResults
 });
+
+function handleResults(response_code) {
+  var question = $(document.createElement('p'));
+  question.appendTo('#one')
 }
-function handleResults (response_code){
-  response_code.data.forEach(function(results)  {
-    var url = item.results.url
-        question.attr('question', url )
-        question.appendTo ('.card-header')
-      })
-};
