@@ -3,17 +3,26 @@
   margin-bottom: 0;
 }
 
-
-.card {
-  float: left;
-  width: 33.333%;
-  padding: .75rem;
-  margin-bottom: 2rem;
-  border: 0;
+.container{
+  margin-top: 65px;
 }
 
 .card > img {
   margin-bottom: .75rem;
+}
+.card{
+position: relative;
+margin-bottom: 50px;
+}
+.card li {
+  color: black;
+  list-style: none;
+}
+
+.btn2{
+  position: relative;
+  margin-left: 40%;
+  margin-top:20px;
 }
 .navbar-custom {
   background-color: #90d96d;
@@ -49,8 +58,7 @@
   background-color: transparent;
 }
 
-.navbar-custom .navbar-collapse,
-.navbar-custom .form-inline {
+.navbar-custom .navbar-collapse {
   border-color: #7ad251;
 }
 
@@ -60,6 +68,9 @@
 .navbar-custom .nav-item .nav-link:hover {
   color: #080707;
 }
-.navbar-custom .form-inline {
-  margin-left: 20%;
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
 }
