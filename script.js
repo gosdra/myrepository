@@ -1,4 +1,4 @@
-
+$("input").on("click", function() {
 $.ajax({
   url: 'https://opentdb.com/api.php?amount=1&type=boolean',
   method: 'GET',
@@ -7,10 +7,12 @@ $.ajax({
     amount: 1,
     type: 'boolean'
   },
-  success: handleResults
+  success: results
 });
 
-function handleResults(response_code) {
-  var question = $(document.createElement('p'));
+function results(response_code) {
+  var question = $(document.createElement('h1'));
   question.appendTo('#one')
+  console.log(question)
 }
+});
