@@ -7,16 +7,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet">
-	<-- ahhaha -->
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-custom fixed-top navbar-expand-lg navbar-light bg-light">
         <span class="navbar-brand mb-0 h1">Wordly</span>
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
         <div class="collapse navbar-collapse" id="navbarText">
            <ul class="navbar-nav mr-auto">
              <li class="nav-item active">
@@ -32,64 +28,66 @@
         </div>
       </nav>
     </header>
+
+
+
     <div class="album text-muted">
       <div class="container">
-
-        <div class="row">
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="card text-white bg-light mb-3" style="max-width: 40rem;">
+          <div class="card-header" id="one">
           </div>
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card">
-            <img data-src="holder.js/100px280?theme=thumb" alt="Card image cap">
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="card-body">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="true">True</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="false">False</button>
+            <input class="btn2 btn-secondary" type="button" value="Input">
           </div>
         </div>
-
+        <div class="card text-white bg-light mb-3" style="max-width: 40rem;">
+          <div class="card-header">Display question here API</div>
+          <div class="card-body">
+            <button type="button" class="btn btn-secondary btn-lg btn-block">True</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block">False</button>
+            <input class="btn2 btn-secondary" type="button" value="Input">
+          </div>
+        </div>
+        <div class="card text-white bg-light mb-3" style="max-width: 40rem;">
+          <div class="card-header">Display question here API</div>
+          <div class="card-body">
+            <button type="button" class="btn btn-secondary btn-lg btn-block">True</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block">False</button>
+            <input class="btn2 btn-secondary" type="button" value="Input">
+          </div>
+        </div>
+        <div class="card text-white bg-light mb-3" style="max-width: 20rem;">
+          <div class="card-header">Display question here API</div>
+          <div class="card-body">
+            <button type="button" class="btn btn-secondary btn-lg btn-block">True</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block">False</button>
+            <input class="btn2 btn-secondary" type="button" value="Input">
+          </div>
+        </div>
+        <div class="card text-white bg-light mb-3" style="max-width: 20rem;">
+          <div class="card-header">Display question here API</div>
+          <div class="card-body">
+            <button type="button" class="btn btn-secondary btn-lg btn-block">True</button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block">False</button>
+            <input class="btn2 btn-secondary" type="button" value="Input">
+          </div>
+        </div>
       </div>
     </div>
 
-    </main>
-    <section>
-      <div class="content">
-        <!-- Once  a person loooks for a word, its meaning, and its "pairs" such as verb, noun, adjective, and adverb should appear -->
-      </div>
-    </section>
-    <section>
-      <!--we can create another page, which can be access through a navigation bar, that shows books recomendations as you said -->
-    </section>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
