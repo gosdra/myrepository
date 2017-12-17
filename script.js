@@ -15,7 +15,7 @@ function results(data) {
     var ul = $('<ul>').appendTo('#one');
       $(data.results).each(function(index, value){
         ul.append(
-       $(document.createElement('li')).text(value.question)
+       $(document.createElement('li')).innerHTML = value.question
         );
         var correctAnswer = value.correct_answer;
         console.log(value.correct_answer);

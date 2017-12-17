@@ -6,15 +6,19 @@
 .container{
   margin-top: 65px;
 }
-
+html{
+    background:;
+}
 .card > img {
   margin-bottom: .75rem;
 }
 .card{
 position: relative;
 margin-bottom: 50px;
+margin-left: 250px;
+margin-top:250px;
 }
-.card li {
+.card ul {
   color: black;
   list-style: none;
 }
