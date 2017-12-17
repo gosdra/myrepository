@@ -1,14 +1,13 @@
 
 .navbar {
   margin-bottom: 0;
+  background-color: #3c3c3c;
 }
 
 .container{
   margin-top: 65px;
 }
-html{
-    background:;
-}
+
 .card > img {
   margin-bottom: .75rem;
 }
@@ -17,6 +16,7 @@ position: relative;
 margin-bottom: 50px;
 margin-left: 250px;
 margin-top:250px;
+box-shadow: 10px 10px 5px grey;
 }
 .card ul {
   color: black;
@@ -29,13 +29,10 @@ margin-top:250px;
   margin-top:20px;
 }
 .navbar-custom {
-  background-color: #90d96d;
+  background-color: #3c3c3c;
   border-color: #7cd253;
   background-image: -webkit-gradient(linear, left 0%, left 100%, from(#afe495), to(#90d96d));
-  background-image: -webkit-linear-gradient(top, #afe495, 0%, #90d96d, 100%);
-  background-image: -moz-linear-gradient(top, #afe495 0%, #90d96d 100%);
-  background-image: linear-gradient(to bottom, #afe495 0%, #90d96d 100%);
-  background-repeat: repeat-x;
+
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffafe495', endColorstr='#ff90d96d', GradientType=0);
 }
 .navbar-custom .navbar-brand {
