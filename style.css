@@ -24,19 +24,16 @@ body {
   margin-top: 65px;
 }
 
-.card > img {
-  margin-bottom: .75rem;
-}
 .card{
 position: relative;
 margin-bottom: 50px;
 margin-left: 250px;
 margin-top:250px;
-box-shadow: 10px 10px 5px grey;
+box-shadow: 10px 10px 5px black;
 opacity: 0.7;
+
 }
 .card ul {
-  color: black;
   font-style: italic;
   font-size: 1.25rem;
 }
@@ -58,9 +55,6 @@ opacity: 0.7;
   background-color: black;
 
 }
-
-
-
 
 .red {
   background-color: red;
