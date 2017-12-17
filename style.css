@@ -3,6 +3,18 @@
   margin-bottom: 0;
   background-color: #3c3c3c;
 }
+#heading{
+  margin-top: 55px;
+  background-color: #b4b4b4;
+  width: 100%;
+  height: 250px;
+}
+.navbar span{
+  margin-left: 50%;
+}
+h1 lettertype{
+  font-family: monospace;
+}
 
 .container{
   margin-top: 65px;
