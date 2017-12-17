@@ -22,7 +22,6 @@ function results(data) {
 
         $('button[type="button"]').click(function(correct, incorrect) {
           if( $(this).text() == correctAnswer ) {
-<<<<<<< HEAD
             correct++
             $(this).removeClass("btn-secondary").addClass("green").stop().delay(2000).queue(function() {
               location.reload();
@@ -32,11 +31,6 @@ function results(data) {
             $(this).removeClass("btn-secondary").addClass("red").stop().delay(2000).queue(function() {
               location.reload();
             });
-=======
-             $(this).removeClass("btn-secondary").addClass("green");
-          } else {
-            $(this).removeClass("btn-secondary").addClass("red");
->>>>>>> 918aad43220e5d0d499b9f83e83c27aa6ecad023
           }
         });
       });
