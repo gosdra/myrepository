@@ -20,14 +20,12 @@ function results(data) {
         var correctAnswer = value.correct_answer;
         console.log(value.correct_answer);
 
-        $('button[type="button"]').click(function(correct, incorrect) {
+        $('button[type="button"]').click(function() {
           if( $(this).text() == correctAnswer ) {
-            correct++
             $(this).removeClass("btn-secondary").addClass("green").stop().delay(2000).queue(function() {
               location.reload();
             });
           } else {
-            incorrect++
             $(this).removeClass("btn-secondary").addClass("red").stop().delay(2000).queue(function() {
               location.reload();
             });
