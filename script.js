@@ -22,11 +22,11 @@ function results(data) {
 
         $('button[type="button"]').click(function() {
           if( $(this).text() == correctAnswer ) {
-            $(this).removeClass("btn-secondary").addClass("green").stop().delay(2000).queue(function() {
+            $(this).removeClass("btn-secondary").addClass("green").stop().delay(1200).queue(function() {
               location.reload();
             });
           } else {
-            $(this).removeClass("btn-secondary").addClass("red").stop().delay(2000).queue(function() {
+            $(this).removeClass("btn-secondary").addClass("red").stop().delay(1200).queue(function() {
               location.reload();
             });
           }
