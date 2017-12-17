@@ -20,11 +20,17 @@ function results(data) {
         var correctAnswer = value.correct_answer;
         console.log(value.correct_answer);
 
-        $('button[type="button"]').click(function() {
+        $('button[type="button"]').click(function(correct, incorrect) {
           if( $(this).text() == correctAnswer ) {
-            alert("YUPEEEE!");
+            correct++
+            $(this).removeClass("btn-secondary").addClass("green").stop().delay(2000).queue(function() {
+              location.reload();
+            });
           } else {
-            alert("SOZ");
+            incorrect++
+            $(this).removeClass("btn-secondary").addClass("red").stop().delay(2000).queue(function() {
+              location.reload();
+            });
           }
         });
       });
