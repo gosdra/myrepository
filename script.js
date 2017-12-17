@@ -17,7 +17,15 @@ function results(data) {
         ul.append(
        $(document.createElement('li')).text(value.question)
         );
+        var correctAnswer = value.correct_answer;
+        console.log(value.correct_answer);
 
-        console.log(value)
+        $('button[type="button"]').click(function() {
+          if( $(this).text() == correctAnswer ) {
+             $(this).removeClass("btn-secondary").addClass("green");
+          } else {
+            $(this).removeClass("btn-secondary").addClass("red");
+          }
+        });
       });
 }
