@@ -22,9 +22,9 @@ function results(data) {
 
         $('button[type="button"]').click(function() {
           if( $(this).text() == correctAnswer ) {
-            alert("YUPEEEE!");
+             $(this).removeClass("btn-secondary").addClass("green");
           } else {
-            alert("SOZ");
+            $(this).removeClass("btn-secondary").addClass("red");
           }
         });
       });
